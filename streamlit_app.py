@@ -11,7 +11,7 @@ model = loaded_data["model"]
 marital_thresholds = loaded_data["marital_thresholds_final"]
 
 # Load the dataset to extract feature names
-dataset_path = r"C:\\Users\\nvjad\\Downloads\\responsible ai\\LoanEE2.csv"
+dataset_path = r"LoanEE2.csv"
 # Load CSV with memory optimization
 sample_data = pd.read_csv(dataset_path, low_memory=False, dtype=str, nrows=5000)
 
